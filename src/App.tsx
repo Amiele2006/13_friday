@@ -3,6 +3,8 @@ import './App.css';
 import NavBar from './nav';
 import ProfileCard from './profile-card';
 import { ProfileProvider } from './provider';
+import ThemeCard from './theme';
+import { ThemeProvider } from './theme-provider';
 
 function App() {
   return (
@@ -19,6 +21,9 @@ function App() {
      I AM A PROFILE
     </ProfileCard>
    </ProfileProvider>
+   <ThemeProvider>
+    <ThemeCard/>
+   </ThemeProvider>
   </div>
   );
 }
