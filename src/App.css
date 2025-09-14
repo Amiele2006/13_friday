@@ -36,3 +36,37 @@
   border: 1px solid black;
   border-radius: 20px;
 }
+
+.home {
+  padding:1rem;
+}
+
+.button {
+  padding:0.5rem 1rem;
+  cursor:pointer;
+  border-radius:6px;
+  font-weight: 500;
+  border:none;
+}
+
+.button-red {
+  background-color: #ef4444;
+  color: white;
+}
+
+.button-red:hover {
+  background-color: #dc2626;
+}
+
+.button-blue {
+  background-color:blue;
+  color:white;
+}
+
+.button-blue:hover {
+  background-color: #2563eb;
+}
+
+.span-1 {
+  margin-right:10px;
+}

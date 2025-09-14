@@ -5,6 +5,8 @@ import ProfileCard from './profile-card';
 import { ProfileProvider } from './provider';
 import ThemeCard from './theme';
 import { ThemeProvider } from './theme-provider';
+import Home from "./home";
+import { AuthProvider } from "./AuthProvider";
 
 function App() {
   return (
@@ -16,7 +18,10 @@ function App() {
         phone: "phone",
         age: 17,
       }}>
+   <AuthProvider>
+    <Home/>
     <NavBar />
+   </AuthProvider>
     <ProfileCard>
      I AM A PROFILE
     </ProfileCard>
