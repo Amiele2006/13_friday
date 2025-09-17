@@ -19,8 +19,8 @@ function App() {
         age: 17,
       }}>
    <AuthProvider>
-    <Home/>
     <NavBar />
+    <Home/>
    </AuthProvider>
     <ProfileCard>
      I AM A PROFILE
